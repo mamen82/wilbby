@@ -1,0 +1,120 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color:white;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    color: #90c33c;
+    font-weight: 700;
+
+}
+
+
+.navbar {
+    background-color: white;
+    text-decoration: none !important;
+}
+
+.margen{
+    margin-top: 100px;
+
+}
+/*boton inicio*/
+.btn-gradient {
+    background: linear-gradient(45deg, #90c33c, #6aa100);
+    border: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+    color: white;
+}
+
+.btn-gradient:hover, .btn-gradient:focus {
+    background: linear-gradient(45deg, #6aa100, #90c33c);
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(144, 195, 60, 0.6);
+    color: white;
+}
+/*Color de texto navbar*/
+.color2{
+    color: #90c33c
+}
+
+
+/*INDICADORES - - -*/
+.carousel-indicators [data-bs-target] {
+    background-color: #90c33c;
+}
+
+/*INDICADOR >*/
+.carousel-control-next-icon {
+    filter: invert(35%) sepia(93%) saturate(630%) hue-rotate(90deg) brightness(85%) contrast(85%);
+    width: 2.5rem;  /* Ajusta tamaño si quieres */
+    height: 2.5rem;
+    color: #90c33c;
+}
+/*INDICADOR <*/
+.carousel-control-prev-icon {
+    filter: invert(35%) sepia(93%) saturate(630%) hue-rotate(90deg) brightness(85%) contrast(85%);
+    width: 2.5rem;  /* Ajusta tamaño si quieres */
+    height: 2.5rem;
+    color: #90c33c;
+}
+/*BOTON REGISTRATE*/
+.fixed-center-button {
+    position: fixed;
+    bottom: 60px;          /* distancia desde abajo */
+    left: 50%;             /* para centrar horizontalmente */
+    transform: translateX(-50%);  /* centra exactamente el botón */
+    z-index: 1050;         /* que esté sobre otros elementos */
+}
+
+/*CONTENEDOR INICIO*/
+.fixed-center-container {
+    position: fixed;
+    bottom: 170px;           /* distancia desde abajo */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1050;
+    text-align: center;
+    max-width: 600px;        /* contenedor más ancho */
+    width: 90%;              /* para que sea responsive */
+    padding: 20px;           /* un poco de espacio interno */
+    border-radius: 12px;     /* bordes redondeados */
+    box-shadow: 0 0 15px rgba(0,0,0,0.2); /* sombra suave */
+
+}
+/*INICIO-TEXTO*/
+.fixed-center-text {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    font-size: 1.4rem;
+    color: #333;
+    font-family:'Poppins',sans-serif;
+}
+/*LISTA INICIO*/
+.fixed-center-text ul {
+    padding-left: 20px;
+    margin: 0;
+    text-align: left;
+    list-style: none;
+}
+/* LISTA INICIO*/
+.fixed-center-text ul li {
+    margin-bottom: 5px;
+}
+
+/*Boton guardar*/
+.btn-save {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+
+
+

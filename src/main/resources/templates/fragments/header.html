@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!---HEADER BOOTSTRAP---->
+<nav class="navbar" th:fragment="header">
+    <div class="container-fluid">
+        <a class="navbar-brand" th:href="@{/}">
+            <img th:src="@{/img/logo_verde.jpg}" alt="Logo" width="80" height="80" class="d-inline-block align-text-top-center rounded-circle">
+        </a>
+        <div  id="navbarNav">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active color2" aria-current="page" href="/formularioRepartidor">Registro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link color2" href="/crud">Lista de Repartidores</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</body>
+</html>
